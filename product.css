@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Rubik:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Rubik:wght@500&family=Ubuntu:wght@300&display=swap');
+body {
+  font-family: "Play", sans-serif;
+  font-family: "Rubik", sans-serif;
+  
+}
+.pr-area {
+  background-color: antiquewhite;
+  width: 900px;
+  border-radius: 8px;
+  margin: 90px auto;
+}
+.content {
+  padding: 50px;
+}
+.lft-img {
+  width: 400px;
+ 
+  height: 500px;
+  border-radius: 5px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.rating p {
+  margin-left: 10px;
+  color: gray;
+}
+.split {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.price {
+  color: orange;
+}
+.discr{
+    font-family: 'Ubuntu', sans-serif;
+}
+.right {
+  margin-top: -25px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+.rdo-wt {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #875555;
+}
+.rdo-wt:checked {
+  background-color: rgb(0, 0, 0);
+}
+.rdo-bk {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #875555;
+}
+.rdo-bk:checked {
+  background-color: orange;
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+.q {
+  color: gray;
+  font-weight: 200;
+}
+.btns-flex {
+  display: flex;
+}
+.btn {
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  font-family: "Play", sans-serif;
+  padding: 10px 70px 10px 70px;
+  margin-left: 20px;
+}
+.btn-ad {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navi {
+  margin-top: 20px;
+}
